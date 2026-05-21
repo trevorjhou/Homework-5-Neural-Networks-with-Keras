@@ -94,4 +94,4 @@ For Optuna tuning, I used:
 
 This allowed the model to train longer while automatically stopping training when validation performance stopped improving.
 
-The final Optuna-tuned model produced the strongest overall ROC AUC score, although the improvement over earlier experiments remained relatively modest. This suggested that the baseline model was already fairly effective for the Adult Census dataset, and that later experiments mainly improved training stability and generalization behavior rather than substantially increasing predictive performance.
+The final Optuna-tuned model produced the strongest overall ROC AUC score (0.9105), although the improvement over earlier experiments remained relatively modest. This suggested that the baseline model was already fairly effective for the Adult Census dataset, and that later experiments mainly improved training stability and generalization behavior rather than substantially increasing predictive performance.
